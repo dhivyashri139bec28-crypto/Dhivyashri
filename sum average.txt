@@ -1,0 +1,14 @@
+#variable length program sum of avg
+def sumavg(*avg):
+   n=len(avg)
+   s=0
+   for i in range(n):
+      s=s+avg[i]
+   av=s/n
+   return s,av
+
+# main routine
+total, avg=sumavg(10,20,30,40,50)
+print("sum= ",total, "average=",avg)
+Output:
+sum=  150 average= 30.0

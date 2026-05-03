@@ -1,0 +1,21 @@
+#swap
+def swap(x,y):
+   print("before swap:",x)
+   print("before swap:",y)
+   x,y=y,x
+   return x,y
+
+
+#main rountine
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+a,b= swap(a,b)
+print("after swapping becomes",a)
+print("after swapping becomes",b)
+output:
+enter a value3
+enter b value4
+before swap: 3
+before swap: 4
+after swapping becomes 4
+after swapping becomes 3

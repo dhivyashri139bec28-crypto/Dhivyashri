@@ -1,0 +1,12 @@
+#USING FUNCTIONS  TO COUNT THE NUMBER IOF VOWELS IN A STRING
+def count_vowe(string):
+   vowel="aeiou AEIOU"
+   count=sum(1 for char in string if char in vowel)
+   return count
+
+#main routine
+t=input("enter a string:")
+print(" no of vowels",count_vowe(t))
+output:
+enter a string :education
+ no of vowels 5

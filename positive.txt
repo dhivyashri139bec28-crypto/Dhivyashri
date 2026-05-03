@@ -1,0 +1,10 @@
+d=int(input("enter a number"))
+if d>0:
+   print("d is positive")
+else:
+   print("d is negative")
+output:
+enter a number:2
+d is positive
+enter a number:-2
+d is negative

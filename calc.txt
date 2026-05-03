@@ -1,0 +1,12 @@
+#simple calculator
+def calc(x,y):
+   a=x+y
+   b=x*y
+   c=x/y
+   d=x-y
+   return(a,b,c,d)
+
+#main routine
+print(calc(10,20))
+output:
+(30, 200, 0.5, -10)
