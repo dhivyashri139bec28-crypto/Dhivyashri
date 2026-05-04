@@ -1,0 +1,15 @@
+#to swap the uppercase into lowercase and viceversa
+def swapx(str):
+  s1 =str.swapcase()
+  return s1
+
+#main routine
+s=input("enter a string:")
+str=swapx(s)
+print(str)
+
+Output:
+enter a string:dhivya
+DHIVYA
+enter a string:dHiVyA
+DhIvYa

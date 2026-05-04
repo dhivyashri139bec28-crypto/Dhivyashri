@@ -1,0 +1,12 @@
+#to find duplicate element in a list
+def find_duplicates(lst):
+   a=set(lst)
+   b=list(a)
+   return b
+#main routine
+lst=[1,2,2,3,4,4,5]
+dup=find_duplicates(lst)
+print("the duplicate elements are",dup)
+
+output:
+the duplicate elements are [1, 2, 3, 4, 5]

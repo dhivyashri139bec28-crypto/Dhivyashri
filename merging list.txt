@@ -1,0 +1,11 @@
+#write a python program to merges two sorted lists of strings into a single sorted list
+def sorting(ls1,ls2):
+   ls3=ls1+ls2
+   return ls3
+#main routine
+ls1=[1,2,3,4]
+ls2=[5,6,7,8]
+print("the merged list is",sorting(ls1,ls2))
+
+output:
+the merged list is [1, 2, 3, 4, 5, 6, 7, 8]

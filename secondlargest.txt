@@ -1,0 +1,26 @@
+ def second_largest(numbers):
+    first = 0
+    second = 0
+    for n in numbers:
+        if n > first:
+            first, second = n, first
+        elif first > n > second:
+            second = n
+    return second or None
+print(second_largest([2,2,2,-2]))
+output:
+None
+#-----------------------------------------------------
+def second_largest(numbers):
+    first = 0
+    second = 0
+    for n in numbers:
+        if n > first:
+            first, second = n, first
+        elif first > n > second:
+            second = n
+    return second or None
+print(second_largest([2,3,8,-2]))
+
+output:
+3

@@ -1,0 +1,12 @@
+#to print the longest word in a given sentence
+def long(str):
+   words=str.split()
+   res=max(words,key=len)
+   print(res)
+
+#main routine
+str=input("enter a string")
+long(str)
+output:
+enter a stringthe greatest of all the time
+greatest

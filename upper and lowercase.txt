@@ -1,0 +1,18 @@
+#TO CALCULATE THE NO OF UPPER CASE AND LOWER CASE IN A STRING
+def case(str1):
+   lower=0
+   upper=0
+   for i in str1:
+       if(i.islower()):
+          lower+=1
+       elif(i.isupper()):
+        upper+=1
+   return(upper,lower)
+
+#main routine
+str1=input("enter a string")
+s=case(str1)
+print("the upper and lowercase is",s)
+output:
+enter a string DhiVYa
+the upper and lowercase is (3, 3)

@@ -1,0 +1,80 @@
+#python function to return colors
+def store_colors(colors_list):
+   return colors_list
+
+#main routine
+colors_list=["pink","black","blue","purple"]
+#................................................
+
+# Function to find the greatest number in a list
+def find_greatest(numbers):
+    if not numbers:
+        return None
+    greatest = max(numbers)
+    return greatest
+ #main routine
+numbers=[1,2,3,45,5]
+#.............................................
+
+# Function to find the minimum number in a list
+def find_minimum(numbers):
+    if not numbers:
+        return None
+    minimum = min(numbers)
+    return minimum
+ #main routine
+numbers=[1,2,3,45,5]
+#.................................................
+# Function to find the sum of all elements in a list
+def find_sum(numbers):
+    total_sum = sum(numbers)
+    return total_sum
+
+#main routine
+numbers=[11,3,5]
+#..................................................
+# Function to find the average of all elements in a list
+def find_average(numbers):
+    if not numbers:
+        return None
+    average = sum(numbers) / len(numbers)
+    return average
+ #main routine
+numbers=[1,2,3,4]
+#.........................................................
+#function call
+
+s=store_colors(colors_list)
+print("the colors are",s)
+t=find_greatest(numbers)
+print("the greatest numbers are",t)
+u=find_minimum(numbers)
+print("the minimum numbers",u)
+v=find_sum(numbers)
+print("the average of numbers",v)
+find_average(numbers)
+#...................................................
+output:
+the colors are ['pink', 'black', 'blue', 'purple']
+the greatest numbers are 4
+the minimum numbers 1
+the average of numbers 10s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

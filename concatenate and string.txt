@@ -1,0 +1,14 @@
+# to calculate a length of the string
+
+def length(a):
+   print("the length of a string is",len(a))
+#to concatenate
+   print("dhivya"+"shri")
+
+#main routine
+a=input("enter a string")
+length(a)
+output:
+enter a string ece
+the length of a string is 4
+dhivyashri

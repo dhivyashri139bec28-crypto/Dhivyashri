@@ -1,0 +1,16 @@
+# to reverse a given string and check whether it is palindrome or not
+
+  str=s[::-1]
+   print(str)
+   print("to check whether it is palindrome")
+   if(str==s):
+      print("it is palindrome")
+   else:
+      print("the string is not palindrome")
+
+#main routine
+s=input("enter a string")
+rev(str)
+output:
+xyz abc
+

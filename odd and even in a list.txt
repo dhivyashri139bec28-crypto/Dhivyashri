@@ -1,0 +1,19 @@
+def coun(num_list):
+    even = 0
+    odd = 0
+    for i in num_list:
+        if i % 2 == 0:
+            even += 1
+        else:
+            odd += 1
+    return odd, even
+# Main routine
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# We capture the returned values from the function into variables
+odd_count, even_count = coun(my_list)
+print("the odd numbers are", odd_count)
+print("the even numbers are",even_count)
+
+output:
+the odd numbers are 5
+the even numbers are 5

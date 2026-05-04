@@ -1,0 +1,10 @@
+#TO COUNT THE NUMBER OF WORDS IN A SENTENCE
+str="python is a simplest programming language"
+def wcount(str):
+   wordcount=len(str.split())
+   print(wordcount)
+
+#main routine
+wcount(str)
+output:
+6

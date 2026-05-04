@@ -1,0 +1,9 @@
+def sorting(str):
+   str.sort()
+   print(str)
+#main routine
+str=['dhivya','bheem','auro']
+sorting(str)
+
+output:
+['auro', 'bheem', 'dhivya']
