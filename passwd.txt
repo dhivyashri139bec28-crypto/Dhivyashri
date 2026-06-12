@@ -1,0 +1,16 @@
+import random
+import string
+
+length = int(input("Enter password length: "))
+
+characters = string.ascii_letters + string.digits + string.punctuation
+
+password = ''.join(random.choice(characters) for _ in range(length))
+
+print("Generated Password:", password)
+
+OUTPUT:
+Enter password length: 5
+Generated Password: WG%'N
+Enter password length: 7
+Generated Password: EM4ow
