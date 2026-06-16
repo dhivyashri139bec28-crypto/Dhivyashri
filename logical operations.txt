@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int a ;
+    int b;
+    int AND,OR,NOT;
+    printf("enter the a value:");
+    scanf("%d",&a);
+    printf("enter the b value:");
+    scanf("%d",&b);
+    AND =a&&b;
+    OR= a ||b;
+    NOT = a|1;
+    printf(" \n the AND is %d",AND);
+    printf("\n the OR is %d",OR);
+    printf("\n the NOT operation is %d",NOT);
+    return 0;
+}
